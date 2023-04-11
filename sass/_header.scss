@@ -1,0 +1,29 @@
+header {
+    background-color: white;
+
+    nav {
+
+        color: black;
+        border: 2px solid black;
+
+        ul {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            li {
+                list-style: none;
+                height: 100px;
+                width: 100px;
+                border: 2px solid black;
+
+                a {
+
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,44 @@
+header {
+  background-color: white;
+}
+header nav {
+  color: black;
+  border: 2px solid black;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul li {
+  list-style: none;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  padding-top: 200px;
+  background-color: white;
+  width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+  padding: 200px;
+}
+
+p {
+  color: black;
+  padding-left: 15px;
+  z-index: 10;
+  font-family: cursive;
+}/*# sourceMappingURL=styles.css.map */

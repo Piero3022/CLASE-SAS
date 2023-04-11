@@ -1,0 +1,29 @@
+@import 'header';
+@import 'footer';
+
+
+* {
+    box-sizing: border-box;
+}
+
+$primary-color: red;
+$gutter: 15px;
+$first-width: 100px;
+$texto: cursive;
+$primary_cup: 10;
+$second-color: black;
+
+
+body {
+    background-color: $primary-color;
+    padding: $first-width*2;
+
+}
+
+p {
+
+    color: $second-color;
+    padding-left: $gutter;
+    z-index: $primary_cup;
+    font-family: $texto;
+}
